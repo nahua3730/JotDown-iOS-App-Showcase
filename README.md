@@ -1,11 +1,22 @@
-# JotDown-iOS-App-Showcase
-About this Repository
-This repository contains selected portions of the JotDown iOS note-taking app that I contributed to as part of the Georgia Tech iOS Club. The full project is a collaborative effort and is not shared here to respect team ownership, but this repo highlights the key components I implemented individually. These include:
+# JotDown (Selected Contributions)
 
-Custom UI layout and animations
+This repository contains selected Swift files from *JotDown* — a note-taking iOS app built with SwiftUI, SwiftData, and Foundation model-based categorization. I contributed to key areas of the app including:
 
-App Shortcuts & Home Screen widgets (via App Intents & WidgetKit)
+- UI layouts and view styling (`HomeView`, `ProfileView`, `SearchView`, etc.)
+- Thought selection, editing, and multi-select deletion logic  
+- Widget support and entry points for home screen interactions  
+- Category logic: automated assignment based on text content  
+- Search logic, combining user thoughts and metadata into searchable results  
 
-Multi-selection and editing logic
+### Features I Worked On
 
-Category-based filtering with SwiftData queries
+- ✅ Custom thought card views with selection state
+- ✅ Widget interfaces for quick note entry and display
+- ✅ Multi-select UI + batch delete actions
+- ✅ Search logic across categories and thoughts
+- ✅ Category filtering and archived views
+
+### Files Included
+
+This repo includes only the specific Swift files and logic that I built or significantly contributed to.
+
